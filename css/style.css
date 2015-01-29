@@ -1,0 +1,181 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0px;
+}
+
+
+
+
+
+/******* HEADER & SEARCH *******/
+
+/*** div container wrapping the header, search bar and button ***/
+#search {
+	display: inline-block;
+	background-color: rgb(230, 132, 64);
+	width: 100%;
+	text-align: center;
+	padding: 2em;
+}
+
+
+
+
+
+/******* RESULTS TABLE *******/
+
+/* div containing the results table*/
+#results {
+	background-color: rgb(90, 72, 54);
+	padding: 1em;
+}
+
+/*** h2 for header above results table ***/
+#Header {
+	font-family: 'Francois One', sans-serif;
+	padding: 0px;
+}
+
+/*** table for dynamic rows from search results ***/
+#results-table {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
+
+/*** affects the dynamically created row headers ***/
+#table-row > tr > td {
+	text-align: center;
+	width: 50%;
+	margin: 0;
+	padding: .25em;
+	border: 1px solid black;
+	background-color: gray;
+}
+
+/*** affects the dynamically created rows*/
+#table-row > tr {
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding: .25em;
+	border: 1px solid black;
+	background-color: gray;
+}
+
+
+
+
+
+/******* WATCH TABLE *******/
+
+/*** table for dynamic rows from search results ***/
+#watch-results-table {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#w-results {
+	background-color: rgb(198, 174, 141);
+	padding: 1em;
+}
+
+#watch-table-row > tr > td {
+	text-align: center;
+	width: 50%;
+	margin: 0;
+	padding: .25em;
+	border: 1px solid black;
+	background-color: rgb(198, 174, 141);
+}
+
+
+
+#watch-table-row .populate{
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 1px solid gray;
+}
+
+
+/******* WATCHED TABLE *******/
+
+#watched-results-table {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#wd-results {
+	background-color: gray;
+	padding: 1em;
+}
+
+#watched-table-row > tr > td {
+	text-align: center;
+	width: 50%;
+	margin: 0;
+	padding: .25em;
+	border: 1px solid black;
+	background-color: gray;
+}
+
+
+
+#watched-table-row .populate{
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 1px solid gray;
+}
+
+
+
+
+
+/******* ALL TABLE HEADER ROWS *******/
+
+/*** Table row for all table headers*/
+#results-table .title-row {
+	width: 100%;
+	text-align: center;
+	background-color: black;
+}
+
+/*** table row within the title row header ***/
+.title-row > tr {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	background-color: rgb(90, 72, 54);
+	color: white;
+}
+
+/*** individual object property headers within table header rows ***/
+.title-row > tr > .header:first-child {
+	text-align: center;
+	margin: 0 auto;
+	padding: .5em;
+	width: 50%;
+	background-color: black;
+	color: white;
+}
+
+.title-row > tr > .header:nth-child(2n) {
+	text-align: center;
+	margin: 0 auto;
+	padding: .5em;
+	width: 50%;
+	background-color: black;
+	color: white;
+}
